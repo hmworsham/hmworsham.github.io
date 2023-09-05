@@ -4,7 +4,7 @@ main:
     url: /research/
   - title: "Me"
     url: /about/
-  - title: "Blog"
+  - title: "Workbench"
     url: /year-archive/
   - title: "Code"
     url: https://github.com/hmworsham

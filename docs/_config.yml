@@ -29,7 +29,7 @@ logo                     : # path of logo image to display in the masthead, e.g.
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 breadcrumb_home_label    : 'Home'
-breadcrum_separator      : '+'
+breadcrumb_separator      : '+'
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -108,14 +108,14 @@ analytics:
 # Site Author
 author:
   name             : "Marshall Worsham"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/NASA_Headshot_RS.jpg"
   bio              : "Forest ecohydrology PhD candidate in UC Berkeley's Energy and Resources Group"
   location         : "Berkeley, CA and Denver, CO"
-  email            : "worsham@berkeley.edu"
+  #  email         : "worsham@berkeley.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your.name@email.com"
+      url: "mailto:worsham@berkeley.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://hmworsham.github.io"
