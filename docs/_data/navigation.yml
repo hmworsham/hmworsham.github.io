@@ -2,13 +2,17 @@
 main:
   - title: "Research"
     url: /research/
+  - title: "Publications"
+    url: /publications/
   - title: "Teaching"
     url: /teaching/
   - title: "CV"
-    url: /cv/
-  - title: "About"
-    url: /about/
+    url: https://drive.google.com/uc?export=download&id=1-Y6Guu36GbGHs-YYZqKRmdwuNCyk2sA7
+  # - title: "About"
+  #   url: /about/
   - title: "Workbench"
     url: /year-archive/
   - title: "Code"
     url: https://github.com/hmworsham
+
+
