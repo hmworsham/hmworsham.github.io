@@ -1,0 +1,53 @@
+{% capture video_id %}{{ include.id }}{% endcapture %}
+{% capture video_provider %}{{ include.provider }}{% endcapture %}
+{% capture video_danmaku %}{{ include.danmaku | default: 0 }}{% endcapture %}
+
+{% capture video_src %}
+  {% case video_provider %}
+  {% when "vimeo" %}
+    https://player.vimeo.com/video/{{ video_id }}?dnt=true
+  {% when "youtube" %}
+    https://www.youtube-nocookie.com/embed/{{ video_id }}
+  {% when "google-drive" %}
+    https://drive.google.com/file/d/{{ video_id }}/preview
+  {% when "bilibili" %}
+    https://player.bilibili.com/player.html?bvid={{ video_id }}&page=1&as_wide=1&high_quality=1&danmaku={{ video_danmaku }}
+  {% when "self" %}
+    /assets/video/{{ video_id }} 
+  {% endcase %}
+{% endcapture %}
+{% assign video_src = video_src | strip %}
+
+<!-- Courtesy of embedresponsively.com -->
+{% unless video_src == "" %}
+  <div class="responsive-video-container">
+    <video width=100% autoplay=1 loop=1 frameborder=0> 
+      <source src="{{ video_src }}" webkitAllowFullScreen mozallowfullscreen allowfullscreen> />
+    </video>
+    <div class="video_overlay">
+      {% if page.show_title != false %}
+        <h1 id="page-title" class="page__title" itemprop="headline">
+      {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
+        </h1>
+      {% endif %}
+      {% if page.tagline %}
+        <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% elsif page.header.show_overlay_excerpt != false and page.excerpt %}
+        <p class="page__lead">{{ page.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+      {% endif %}
+      {% include page__meta.html %}
+      {% if page.header.cta_url %}
+        <p><a href="{{ page.header.cta_url | relative_url }}" class="btn btn--light-outline btn--large">{{ page.header.cta_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+      {% endif %}
+      {% if page.header.actions %}
+        <p>
+        {% for action in page.header.actions %}
+          <a href="{{ action.url | relative_url }}" class="btn btn--light-outline btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+        {% endfor %}
+      {% endif %}   
+    </div>
+    {% if page.header.caption %}
+    <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+  {% endif %}
+  </div>
+{% endunless %}
