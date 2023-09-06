@@ -2,11 +2,13 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Me"
+  - title: "Teaching"
+    url: /teaching/
+  - title: "CV"
+    url: /cv/
+  - title: "About"
     url: /about/
   - title: "Workbench"
     url: /year-archive/
   - title: "Code"
     url: https://github.com/hmworsham
-  - title: "Sitemap"
-    url: /sitemap/

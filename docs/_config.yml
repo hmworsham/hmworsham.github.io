@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -137,7 +137,7 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url:
+      # url: "https://x.com/marshallworsham"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:
@@ -300,4 +300,3 @@ defaults:
       type: pages
     values: 
       layout: single
-
