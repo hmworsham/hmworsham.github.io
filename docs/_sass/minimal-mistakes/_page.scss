@@ -194,7 +194,7 @@ body {
   &--overlay {
     position: relative;
     margin-bottom: 2em;
-    padding: 9em 2em;
+    padding: 3em 0;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -223,6 +223,7 @@ body {
     .btn {
       color: #fff;
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
 
     .page__lead {
