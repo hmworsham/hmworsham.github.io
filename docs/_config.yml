@@ -27,9 +27,9 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 breadcrumb_home_label    : 'Home'
-breadcrumb_separator      : '+'
+breadcrumb_separator     : '+'
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -108,9 +108,15 @@ analytics:
 # Site Author
 author:
   name             : "Marshall Worsham"
-  avatar           : "/assets/images/NASA_Headshot_RS.jpg"
-  bio              : "Forest ecohydrology PhD candidate in UC Berkeley's Energy and Resources Group"
-  location         : "Berkeley, CA and Denver, CO"
+  avatar           : "/assets/images/worsham_avery.jpg"
+  # bio              : "Forest ecohydrology PhD candidate"
+  location         : "Energy and Resources Group 
+                     <br>
+                     345 Giannini Hall 
+                     <br>
+                     University of California
+                     <br>
+                     Berkeley, CA 94720-3050"
   #  email         : "worsham@berkeley.edu"
   links:
     - label: "Email"
@@ -118,7 +124,10 @@ author:
       url: "mailto:worsham@berkeley.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://hmworsham.github.io"
+      # url: "https://hmworsham.github.io"
+    - label: "0000-0001-7924-040X"
+      icon: "fab fa-brands fa-orcid"
+      url: "https://orcid.org/0000-0001-7924-040X"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
