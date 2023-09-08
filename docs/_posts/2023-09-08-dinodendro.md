@@ -13,15 +13,15 @@ gallery:
     alt: "placeholder image 1"
     title: "Image 1 title caption"
   - url: /assets/images/posts/dinodendro/IMG_9814.jpg
-    image_path: /assets/images/posts/dinodendro/IMG_9416.jpg
+    image_path: /assets/images/posts/dinodendro/IMG_9816.jpg
     alt: "placeholder image 2"
     title: "Image 2 title caption"
   - url: /assets/images/posts/dinodendro/IMG_9870.jpg
-    image_path: /assets/images/posts/dinodendro/IMG_9470.jpg
+    image_path: /assets/images/posts/dinodendro/IMG_9870.jpg
     alt: "placeholder image 3"
     title: "Image 3 title caption"
   - url: /assets/images/posts/dinodendro/IMG_9816.jpg
-    image_path: /assets/images/posts/dinodendro/IMG_9414.jpg
+    image_path: /assets/images/posts/dinodendro/IMG_9814.jpg
     alt: "placeholder image 4"
     title: "Image 4 title caption"
 ---
