@@ -11,6 +11,9 @@ header:
   overlay_color: "#424242"
 ---
 
+[Google Scholar](https://scholar.google.com/citations?user=9jjjSgcAAAAJ&hl=en){: .btn .btn--primary target="_blank" r el="noopener noreferrer"}
+[ORCID](https://orcid.org/0000-0001-7924-040X){: .btn .btn--primary target="_blank" rel="noopener noreferrer"}
+
 # Peer-reviewed articles
 
 # In preparation
