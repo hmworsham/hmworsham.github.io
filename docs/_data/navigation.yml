@@ -10,8 +10,8 @@ main:
     url: https://drive.google.com/uc?export=download&id=1-Y6Guu36GbGHs-YYZqKRmdwuNCyk2sA7
   # - title: "About"
   #   url: /about/
-  - title: "Workbench"
-    url: /year-archive/
+  - title: "Bench"
+    url: /trip-reports/dinodendro
   - title: "Code"
     url: https://github.com/hmworsham
 

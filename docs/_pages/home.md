@@ -22,5 +22,5 @@ header:
 
 <p style='font-size:1.363em'>
   <br>
-As a PhD candidate in the Energy and Resources Group at UC Berkeley, I study the interactions between hydrology, climate, and forest structure and function at tree-to-watershed scales. I use interdisciplinary approaches spanning remote sensing, dendrochronology, and soil science to think about how water availability influences the state and change of high-elevation conifer forests — and vice-versa.
+As a PhD candidate in the Energy and Resources Group at UC Berkeley, I study the interactions between hydrology, climate, and forest structure and function at tree-to-watershed scales. I use interdisciplinary approaches spanning remote sensing, dendrochronology, and soil science to think about how water availability influences states and changes in high-elevation conifer forests — and vice-versa.
  </p>
