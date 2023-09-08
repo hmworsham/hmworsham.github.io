@@ -13,6 +13,8 @@ header:
 
 # Research areas 
 
+## Forest structure
+
 | ![structure](/assets/images/structure.png) | Ecologists know the general contours of the relationships between forest structure and underlying variables like topography, soil, lithology, and climate. But few studies have quantified the relative importance of these "state" variables or their potential interactive effects, particularly in subalpine forests. My research in this area helps to address this gap by analyzing covariability between measures of forest structure and state variables on a spatially continuous basis. I have used **full-waveform LiDAR** data to develop wall-to-wall estimates of stand structure. I use both inferential and Bayesian approaches to model the relationships between those metrics and spatially continuous measures of variables like site topography, lithology, soil properties, and snow water equivalent (SWE). My findings serve as a point of departure for further evaluation of nonlinearities in the elevational lapse-rate control on forest growth, and improve the quantitative basis for predicting future stand structure change. |
 
 ## Tree growth responses to climate extremes
