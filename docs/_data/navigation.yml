@@ -4,13 +4,13 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Teaching"
-    url: /teaching/
+  # - title: "Teaching"
+    # url: /teaching/
   - title: "CV"
     url: https://drive.google.com/uc?export=download&id=1-Y6Guu36GbGHs-YYZqKRmdwuNCyk2sA7
   # - title: "About"
   #   url: /about/
-  - title: "Bench"
+  - title: "Field Notes"
     url: /trip-reports/dinodendro
   - title: "Code"
     url: https://github.com/hmworsham
