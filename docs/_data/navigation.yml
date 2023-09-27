@@ -11,7 +11,7 @@ main:
   # - title: "About"
   #   url: /about/
   - title: "Field Notes"
-    url: /trip-reports/dinodendro
+    url: /fieldnotes/
   - title: "Code"
     url: https://github.com/hmworsham
 

@@ -10,8 +10,8 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes@4.24.0"
+# Theme                  : "minimal-mistakes-jekyll"
+remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -107,61 +107,70 @@ analytics:
 
 # Site Author
 author:
-  name             : "Marshall Worsham"
-  avatar           : "/assets/images/worsham_avery.jpg"
-  # bio              : "Forest ecohydrology PhD candidate"
-  location         : "Energy and Resources Group 
-                     <br>
-                     345 Giannini Hall 
-                     <br>
-                     University of California
-                     <br>
-                     Berkeley, CA 94720-3050"
-  #  email         : "worsham@berkeley.edu"
+  name                   : "Marshall Worsham"
+  avatar                 : "/assets/images/worsham_avery.jpg"
+  # bio                  : "Forest ecohydrology PhD candidate"
+  location               : "Energy and Resources Group 
+                           <br>
+                           345 Giannini Hall 
+                           <br>
+                           University of California
+                           <br>
+                           Berkeley, CA 94720-3050"
+  # email                  : "worsham@berkeley.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:worsham@berkeley.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://hmworsham.github.io"
-    - label: "0000-0001-7924-040X"
-      icon: "fab fa-brands fa-orcid"
-      url: "https://orcid.org/0000-0001-7924-040X"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+    - label              : "Email"
+      icon               : "fas fa-fw fa-envelope-square"
+      url                : "mailto:worsham@berkeley.edu"
+    - label              : "Website"
+      icon               : "fas fa-fw fa-link"
+      # url                : "https://hmworsham.github.io"
+    - label              : "0000-0001-7924-040X"
+      icon               : "fab fa-brands fa-orcid"
+      url                : "https://orcid.org/0000-0001-7924-040X"
+    - label              : "Twitter"
+      icon               : "fab fa-fw fa-twitter-square"
+      # url                : "https://twitter.com/"
+    - label              : "Facebook"
+      icon               : "fab fa-fw fa-facebook-square"
+      # url                : "https://facebook.com/"
+    - label              : "GitHub"
+      icon               : "fab fa-fw fa-github"
+      # url                : "https://github.com/"
+    - label              : "Instagram"
+      icon               : "fab fa-fw fa-instagram"
+      # url                : "https://instagram.com/"
+
+
+# Collections
+collections:
+  portfolio:
+    output               : true
+    permalink            : /:collection/:path/
+
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://x.com/marshallworsham"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+    - label              : "Twitter"
+      icon               : "fab fa-fw fa-twitter-square"
+      # url                : "https://x.com/marshallworsham"
+    - label              : "Facebook"
+      icon               : "fab fa-fw fa-facebook-square"
+      # url                :
+    - label              : "GitHub"
+      icon               : "fab fa-fw fa-github"
+      # url                :
+    - label              : "GitLab"
+      icon               : "fab fa-fw fa-gitlab"
+      # url                :
+    - label              : "Bitbucket"
+      icon               : "fab fa-fw fa-bitbucket"
+      # url                :
+    - label              : "Instagram"
+      icon               : "fab fa-fw fa-instagram"
+      # url                :
+
 
 # Reading Files
 include:
@@ -198,41 +207,41 @@ exclude:
 keep_files:
   - .git
   - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+encoding                 : "utf-8"
+markdown_ext             : "markdown,mkdown,mkdn,mkd,md"
 
 
 # Conversion
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+markdown                 : kramdown
+highlighter              : rouge
+lsi                      : false
+excerpt_separator        : "\n\n"
+incremental              : false
 
 
 # Markdown Processing
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+  input                  : GFM
+  hard_wrap              : false
+  auto_ids               : true
+  footnote_nr            : 1
+  entity_output          : as_char
+  toc_levels             : 1..6
+  smart_quotes           : lsquo,rsquo,ldquo,rdquo
+  enable_coderay         : false
 
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  sass_dir               : _sass
+  style                  : compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 
 # Outputting
-permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+permalink                : /:categories/:title/
+paginate                 : 5 # number of posts to show
+paginate_path            : /page:num/
+timezone                 : # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -263,49 +272,58 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+  type                   : liquid
+  path                   : /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
+  type                   : liquid
+  path                   : /tags/
+
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
 #     - categories
 #     - tags
 #   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
+#     category             : archive-taxonomy
+#     tag                  : archive-taxonomy
 #   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+#     category             : /categories/:name/
+#     tag                  : /tags/:name/
 
 
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
-  clippings: all
+  clippings              : all
   ignore:
-    envs: development
+    envs                 : development
 
 
 # Defaults
 defaults:
   # _posts
   - scope:
-      path: ""
-      type: posts
+      path               : ""
+      type               : posts
     values:
-      layout: single
-      author_profile: true
-      show_date: true
-      read_time: true
-      comments: # true
-      share: true
-      related: 
+      layout             : single
+      author_profile     : false
+      show_date          : true
+      read_time          : true
+      comments           : # true
+      share              : true
+      related            : 
   # _pages
   - scope:
-      path: ""
-      type: pages
+      path               : ""
+      type               : pages
     values: 
-      layout: single
+      layout             : single
+  # _portfolio
+  - scope:
+      path               : ""
+      type               : portfolio
+    values: 
+      layout             : single
+      author_profile     : false
+      share              : true

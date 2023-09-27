@@ -11,9 +11,6 @@ header:
     provider: self
   #overlay_image: /assets/images/forest_splash.jpg
   #overlay_color: "#424242"
-  # actions:
-    # - label: "<i class='fas fa-download'></i> Install now"
-      # url: "/docs/quick-start-guide/"
 ---
 
 <!-- | <img src="/assets/images/NASA_headshot_RS.jpg" alt="worsham" width="50%"/> | I’m a PhD Candidate in the [Energy and Resources Group](https://erg.berkeley.edu/) at UC Berkeley, advised by [Dr. Lara Kueppers](https://lara-kueppers.com/). I use a range of approaches spanning remote sensing, dendrochronology, and soil science to study how environmental conditions interact to regulate state and change in high-elevation conifer forests. |
