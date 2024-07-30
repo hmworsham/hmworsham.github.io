@@ -23,7 +23,7 @@ name                     : "Marshall Worsham"
 description              : "Forest ecohydrology PhD candidate in UC Berkeley's Energy and Resources Group."
 url                      : https://hmworsham.github.io
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : hmworsham/hmworsham.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -155,12 +155,12 @@ footer:
     - label              : "Twitter"
       icon               : "fab fa-fw fa-twitter-square"
       # url                : "https://x.com/marshallworsham"
-    - label              : "Facebook"
-      icon               : "fab fa-fw fa-facebook-square"
-      # url                :
     - label              : "GitHub"
       icon               : "fab fa-fw fa-github"
-      # url                :
+      url                : "https://github.com/hmworsham/"
+    - label              : "LinkedIn"
+      icon               : "fab fa-fw fa-linkedin-square"
+      url                : "https://linkedin.com/in/marshallworsham"
     - label              : "GitLab"
       icon               : "fab fa-fw fa-gitlab"
       # url                :
