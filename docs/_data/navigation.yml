@@ -10,8 +10,8 @@ main:
     url: https://drive.google.com/uc?export=download&id=1-Y6Guu36GbGHs-YYZqKRmdwuNCyk2sA7
   # - title: "About"
   #   url: /about/
-  - title: "Field Notes"
-    url: /fieldnotes/
+  #- title: "Field Notes"
+  #  url: /fieldnotes/
   - title: "Code"
     url: https://github.com/hmworsham
 
