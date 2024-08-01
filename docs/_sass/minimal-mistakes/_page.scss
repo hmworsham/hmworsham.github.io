@@ -623,8 +623,8 @@ body {
 .nosidebar {
   .page {
 
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 0;
+    padding-right: 0;
 
     @include breakpoint($large) {
       float: right;
