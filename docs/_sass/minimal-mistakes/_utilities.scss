@@ -150,10 +150,12 @@ body:hover .visually-hidden button {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 
-  @include breakpoint($small) {
+  @include breakpoint($medium) {
     float: left;
     margin-right: 1em;
+    max-width: 50%;
   }
 }
 
@@ -163,10 +165,12 @@ body:hover .visually-hidden button {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 
-  @include breakpoint($small) {
+  @include breakpoint($medium) {
     float: right;
     margin-left: 1em;
+    max-width: 50%;
   }
 }
 
@@ -325,6 +329,12 @@ body:hover .visually-hidden button {
   .fa-xing-square {
     color: $xing-color;
   }
+}
+
+/* Icon style overrides */
+
+.icon-white {
+  color: whitesmoke !important;
 }
 
 /*
@@ -572,23 +582,28 @@ a.reversefootnote {
 
 .responsive-video-container {
   position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 2em;
+  width: 100%;
+  height: 40vw;
   @include clearfix;
-  overflow: hidden;
-  max-width: 100%;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.25s;
+  animation-delay: 0.25s;
 
-  .video_overlay {
+  .video_background {
     position: absolute;
-    top: 15%;
-    left: 10%;
-    @include clearfix;
-    -webkit-animation: $intro-transition;
-    animation: $intro-transition;
-    -webkit-animation-delay: 0.25s;
-    animation-delay: 0.25s;
-    max-width: inherit;
-    max-height: inherit;
-
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 2em;
+    padding: 3em 0;
+  }
+  
     a {
       color: #fff
     }
@@ -596,6 +611,15 @@ a.reversefootnote {
     .wrapper {
       padding-left: 1em;
       padding-right: 1em;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+      -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+      -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+      transition: opacity 1s ease, transform 1s ease;
+      cursor: default;
+      text-align: center;
     }
 
     .page__title,
@@ -603,30 +627,100 @@ a.reversefootnote {
     .page__lead,
     .btn {
       color: #fff;
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+      text-shadow: 1px 1px 3px rgba(#000, 0.5);
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
     }
 
     .page__title {
-      font-size: $type-size-2;
+      font-size: $type-size-5;
+      padding-right: 1em;
+      max-width: $medium;
+      @include breakpoint($medium) {
+        font-size: $type-size-1;
+    }
+  }
+
+    .page__lead {
+      font-size: $type-size-5;
+      padding: 1em;
+      max-width: $medium;
+
+      @include breakpoint($medium) {
+        font-size: $type-size-1;
+    }
+      }
+    }
+
+/* .responsive-video-container {
+  position: relative;
+  margin-bottom: 2em;
+  width: 100%;
+  height: 50vw;
+  @include clearfix;
+
+  .video_overlay {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 25%;
+    @include clearfix;
+    -webkit-animation: $intro-transition;
+    animation: $intro-transition;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    max-width: 100vw;
+    max-height: 50vw;
+
+    a {
+      color: #fff
+    }
+
+    .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      -moz-transition: opacity 1s ease, -moz-transform 1s ease;
+      -webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+      -ms-transition: opacity 1s ease, -ms-transform 1s ease;
+      transition: opacity 1s ease, transform 1s ease;
+      cursor: default;
+      text-align: center;
+
+      @include breakpoint($x-large) {
+        max-width: $x-large;
+      }
+    }
+
+    .page__title,
+    .page__meta,
+    .page__lead,
+    .btn {
+      color: #fff;
+      text-shadow: 1px 1px 3px rgba(#000, 0.5);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    }
+
+    .page__title {
+      font-size: $type-size-1;
+      padding-right: 1em;
 
       @include breakpoint($small) {
-        font-size: $type-size-1;
+        font-size: $type-size-5;
       }
     }
 
     .page__lead {
-      font-size: $type-size-2;
-      max-width: $x-large;
+      font-size: $type-size-1;
       padding-right: 1em;
-      @include breakpoint($medium) {
-        font-size: 3.25em;
+
+      @include breakpoint($small) {
+        font-size: $type-size-5;
         max-width: $x-large;
       }
     }
 
   }
-}
+} */
 
 // full screen video fixes
 :-webkit-full-screen-ancestor {
