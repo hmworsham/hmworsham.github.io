@@ -14,6 +14,7 @@
 remote_theme             : "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "default", "dirt", "neon", "mint", "plum", "sunrise"
 
+
 # Site Settings
 locale                   : "en-US"
 title                    : "H. M. Worsham"
@@ -26,7 +27,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : hmworsham/hmworsham.github.io
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title""
 breadcrumbs              : false # true, false (default)
 breadcrumb_home_label    : "Home"
 breadcrumb_separator     : "+"
@@ -75,12 +76,14 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
 naver_site_verification  :
 yandex_site_verification :
 baidu_site_verification  :
+
 
 # Social Sharing
 twitter:
@@ -96,6 +99,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+
 
 # Analytics
 analytics:
@@ -152,14 +156,14 @@ collections:
 # Site Footer
 footer:
   links:
-    - label              : "Twitter"
-      icon               : "fab fa-fw fa-twitter-square"
+    - #label              : "Twitter"
+      #icon               : "fab fa-fw fa-twitter-square"
       # url                : "https://x.com/marshallworsham"
     - label              : "GitHub"
       icon               : "fab fa-fw fa-github"
       url                : "https://github.com/hmworsham/"
     - label              : "LinkedIn"
-      icon               : "fab fa-fw fa-linkedin-square"
+      icon               : "fab fa-fw fa-linkedin icon-white"
       url                : "https://linkedin.com/in/marshallworsham"
     - label              : "GitLab"
       icon               : "fab fa-fw fa-gitlab"
