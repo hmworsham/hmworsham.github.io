@@ -1,23 +1,25 @@
 ---
+layout: bigsplash
 show_title: false
-tagline: "I study mountain forests and how they shape the hydrological cycle."
-layout: splash
-author_profile: false
+masthead: false
 permalink: /
 hidden: true
+classes:
+  - landing
+tagline: 'I study the connections between forests, climate, and the water cycle.'
 header:
   video:
     id: conifer.mp4
     provider: self
-  #overlay_image: /assets/images/forest_splash.jpg
-  #overlay_color: "#424242"
+  # image: /assets/images/forest_splash.jpg
+  # overlay_image: /assets/images/forest_splash.jpg
+  # overlay_color: "#424242"
+  # caption: "H. M. Worsham"
 ---
 
 <!-- | <img src="/assets/images/NASA_headshot_RS.jpg" alt="worsham" width="50%"/> | I’m a PhD Candidate in the [Energy and Resources Group](https://erg.berkeley.edu/) at UC Berkeley, advised by [Dr. Lara Kueppers](https://lara-kueppers.com/). I use a range of approaches spanning remote sensing, dendrochronology, and soil science to study how environmental conditions interact to regulate state and change in high-elevation conifer forests. |
 
 <img src="/assets/images/NASA_headshot_RS.jpg" alt="worsham" width="10%" align="left"/>  I’m a PhD Candidate in the [Energy and Resources Group](https://erg.berkeley.edu/) at UC Berkeley, advised by [Dr. Lara Kueppers](https://lara-kueppers.com/). I use a range of approaches spanning remote sensing, dendrochronology, and soil science to study how environmental conditions interact to regulate state and change in high-elevation conifer forests. | -->
 
-<p style='font-size:1.363em'>
-  <br>
-As a PhD candidate in Berkeley's Energy and Resources Group, I study the interactions between hydrology, climate, and forest structure and function at tree-to-watershed scales. I use interdisciplinary approaches spanning remote sensing, dendrochronology, and soil science to think about how water availability influences states and changes in high-elevation conifer forests---and vice-versa.
- </p>
+<img src="/assets/images/avery.png" alt="worsham" align="left" style='padding: 0 1em 1em 0'/>
+I'm an ecohydrologist investigating how high-elevation forests respond to rising temperatures and changing precipitation patterns. I use methods spanning remote sensing, dendrochronology, and soil science to think about the relationships between hydroclimatic processes and forest states and changes.
