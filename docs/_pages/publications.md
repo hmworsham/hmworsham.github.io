@@ -10,8 +10,15 @@ header:
   # overlay_color: "#424242"
 ---
 
+[Refereed journal articles](#refereed-journal-articles){: .btn .btn--primary r el="noopener noreferrer"}
+[Invited presentations](#invited-presentations){: .btn .btn--primary r el="noopener noreferrer"}
+[Contributed presentations](#contributed-presentations){: .btn .btn--primary r el="noopener noreferrer"}
+[Published datasets](#published-datasets){: .btn .btn--primary r el="noopener noreferrer"}
+[Book chapters](#book-chapters){: .btn .btn--primary r el="noopener noreferrer"}
+[Reports and policy briefs](#reports-and-policy-briefs){: .btn .btn--primary r el="noopener noreferrer"}
 [Google Scholar](https://scholar.google.com/citations?user=9jjjSgcAAAAJ&hl=en){: .btn .btn--primary target="_blank" r el="noopener noreferrer"}
 [ORCID](https://orcid.org/0000-0001-7924-040X){: .btn .btn--primary target="_blank" rel="noopener noreferrer"}
+
 
 ## Refereed journal articles
 
