@@ -34,7 +34,7 @@ header:
 
 ## Contributed presentations
 
-| 2024	| Kueppers, L., **H. Marshall Worsham**, T. Powell, M. Berkelhammer, J. Dennedy-Frank, C. Still, I. Breckheimer, B. Blonder, and E. Siirila-Woodburn. Integrating tree hydraulic trait, forest stand structure, and topographic controls on ecohydrologic function in a Rocky Mountain subalpine watershed. 2024 Environmental System Science PI Meeting. U.S Department of Energy Biological and Environmental Research Program (BER), Earth and Environmental Systems Sciences Division (EESSD), 16–17 April 2024, Reston, VA, USA. |
+| 2024	| Kueppers, L., **H. M. Worsham**, T. Powell, M. Berkelhammer, J. Dennedy-Frank, C. Still, I. Breckheimer, B. Blonder, and E. Siirila-Woodburn. Integrating tree hydraulic trait, forest stand structure, and topographic controls on ecohydrologic function in a Rocky Mountain subalpine watershed. 2024 Environmental System Science PI Meeting. U.S Department of Energy Biological and Environmental Research Program (BER), Earth and Environmental Systems Sciences Division (EESSD), 16–17 April 2024, Reston, VA, USA. |
 
 | 2023 | **Worsham, M.**, B. Brice, H. Henry, and L. M. Kueppers. Disentangling topoclimatic influences on subalpine tree growth responses to temperature and precipitation extremes. Presentation B34C-06. American Geophysical Union Fall Meeting, San Francisco, CA, USA. |
 
@@ -42,7 +42,7 @@ header:
 
 |2023 | Falco, N., N. Bouskill, B. J. Enquist, B. Faybishenko, C. Hinojo Hinojo, L.M. Kueppers, M. E. Newcomer, S. Uhlemann, H. M. Wainwright, **M. Worsham**, K. H. Williams, and E. Brodie. Investigating drivers and impacts of shifts in vegetation health and functional traits across the East River and Taylor watersheds. Presentation B53A-08. American Geophysical Union Fall Meeting, San Francisco, CA, USA. |
 
-| 2023 |	Kueppers, L., **H. Marshall Worsham**, T. Powell, M. Berkelhammer, J. Dennedy-Frank, C. Still, I. Breckheimer, B. Blonder, and E. Siirila-Woodburn. Integrating tree hydraulic trait, forest stand structure, and topographic controls on ecohydrologic function in a Rocky Mountain subalpine watershed. 2023 Environmental System Science PI Meeting. U.S Department of Energy Biological and Environmental Research Program (BER), Earth and Environmental Systems Sciences Division (EESSD), 16–17 May 2023, Bethesda, MD, USA. |
+| 2023 |	Kueppers, L., **H. M. Worsham**, T. Powell, M. Berkelhammer, J. Dennedy-Frank, C. Still, I. Breckheimer, B. Blonder, and E. Siirila-Woodburn. Integrating tree hydraulic trait, forest stand structure, and topographic controls on ecohydrologic function in a Rocky Mountain subalpine watershed. 2023 Environmental System Science PI Meeting. U.S Department of Energy Biological and Environmental Research Program (BER), Earth and Environmental Systems Sciences Division (EESSD), 16–17 May 2023, Bethesda, MD, USA. |
 
 | 2022 |	**Worsham, M.**, H. M. Wainwright, N. Falco, T. Powell, and L. M. Kueppers. 2022. A spatially continuous look at topographic, edaphic, geologic, and snow controls on conifer stand structure. Presentation B26B-04. American Geophysical Union Fall Meeting, Chicago, IL, USA. |
 
